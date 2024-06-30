@@ -1,0 +1,15 @@
+{
+    "$schema": "https://jsr.io/schema/config-file.v1.json",
+    "name": "@code-fixer-23/dummy-jsr",
+    "version": "1.0.0",
+    "exports": "./src/index.ts",
+    "publish": {
+        "include": [
+            "./README.md",
+            "src"
+        ],
+        "exclude": [
+            "src/**/*.test.ts"
+        ]
+    }
+}
