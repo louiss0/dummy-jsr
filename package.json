@@ -1,7 +1,5 @@
 {
   "name": "@code-fixer-23/dummy-jsr",
-  "version": "2.2.4",
-  "description": "This is the repo for creating a Class Name Filter Sorter",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -9,34 +7,25 @@
   "scripts": {
     "dev": "vitest",
     "dev:ui": "vitest --ui",
-    "coverage": "vitest run --coverage",
-    "release": "tsup && dotenv release-it"
+    "coverage": "vitest run --coverage"
   },
   "license": "ISC",
   "devDependencies": {
-    "@total-typescript/ts-reset": "^0.5.1",
-    "@vitest/coverage-v8": "^1.6.0",
-    "typescript": "^5.5.2",
-    "vite": "^5.3.2",
-    "vitest": "^1.6.0"
+    "@anatine/zod-mock": "^3.13.4",
+    "@vitest/coverage-v8": "^2.0.4",
+    "@vitest/ui": "^2.0.4",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4",
+    "vitest": "^2.0.4",
+    "zod": "^3.23.8"
   },
-  "keywords": [
-    "tailwindcss",
-    "unocss",
-    "css",
-    "className",
-    "classList",
-    "windicss"
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/louiss0/cn-efs.git"
+    "url": "https://github.com/louiss0/dummy-jsr.git"
   },
   "author": {
     "name": "Shelton Louis",
     "url": "https://github.com/louiss0"
-  },
-  "dependencies": {
-    "clsx": "^2.1.1"
   }
 }
