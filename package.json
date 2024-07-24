@@ -9,7 +9,7 @@
     "dev:ui": "vitest --ui",
     "coverage": "vitest run --coverage"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@anatine/zod-mock": "^3.13.4",
     "@vitest/coverage-v8": "^2.0.4",
